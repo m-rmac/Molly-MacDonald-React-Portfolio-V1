@@ -10,7 +10,7 @@ import Contact from './components/Contact/contact.component';
 function App() {
   return (
 
-    <main className="text-gray-400 bg-[#231773] body-font">
+    <main className="min-h-screen text-gray-400 bg-[#FFFFFF] body-font">
       
       <Navbar/>
       <About/>

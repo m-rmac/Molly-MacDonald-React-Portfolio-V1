@@ -1,6 +1,15 @@
 
 export const projects = [
     {
+      title: "Todo List App",
+      subtitle: "React",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      image: "./to-do list generator.PNG",
+      siteLink: "https://m-rmac.github.io/To-Do-List-Generator/",
+      gitLink: "https://github.com/m-rmac/To-Do-List-Generator"
+    },
+    {
       title: "React Reserve",
       subtitle: "MERN Stack",
       description:
@@ -19,23 +28,15 @@ export const projects = [
       gitLink: "https://github.com/m-rmac/To-Do-List-Generator"
     },
     {
-      title: "DevChat",
+      title: "Crown Clothing",
       subtitle: "React and Firebase",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-3.gif",
-      siteLink: "https://m-rmac.github.io/To-Do-List-Generator/",
-      gitLink: "https://github.com/m-rmac/To-Do-List-Generator"
+      image: "./crwn-clothing.PNG",
+      siteLink: "https://react-project-crwn-live.herokuapp.com/",
+      gitLink: "https://github.com/m-rmac/crwn-clothing"
     },
-    {
-      title: "Todo List App",
-      subtitle: "React",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./to-do list generator.PNG",
-      siteLink: "https://m-rmac.github.io/To-Do-List-Generator/",
-      gitLink: "https://github.com/m-rmac/To-Do-List-Generator"
-    },
+
   ];
 
   export const skills = ["JavaScript", "CSS", "Node.js", "React", "SQLite"

@@ -1,13 +1,13 @@
-// import { CodeIcon } from "@heroicons/react/solid";
+import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../../data";
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-400 bg-gray-900 body-font">
-      <div className="container h-full px-5 py-10 mx-auto text-center lg:px-40">
+    <section id="projects" className="text-gray-400 bg-[#1A1A1D] body-font">
+      <div className="container px-5 py-20 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-          {/* <CodeIcon className="mx-auto inline-block w-10 mb-4" /> */}
+          <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Projects I've Built
           </h1>
@@ -29,7 +29,7 @@ export default function Projects() {
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={project.image}
                 />
-                <div className="px-4 py-6 relative z-9 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                <div className="px-4 py-6 relative z-9 w-full border-4 border-gray-800 bg-[#1A1A1D] opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
                   </h2>
@@ -46,8 +46,11 @@ export default function Projects() {
                     key={project.image}
                     className="w-1/2 m-1"
                     >
-                      <div className="px-1 py-1 relative z-10 border-4 border-gray-800 bg-gray-900 hover:bg-[#4B50BF]">
-                        <h3 className="tracking-widest w-full h-full z-11 text-sm title-font font-medium text-[#4B50BF] mb-1 hover:text-white">Live</h3>
+                      <div className="h-10 w-50 relative z-10 border-4 border-gray-800 bg-[#1A1A1D] hover:bg-[#C3073F] hover:border-[#1A1A1D]">
+                        <div className="tracking-widest w-full h-full z-11 content-center text-sm title-font font-medium text-[#C3073F] hover:text-white">
+                        <h3 className="pt-1">Live</h3>
+                        </div>
+                        
                       </div>
 
                     </a>
@@ -57,8 +60,10 @@ export default function Projects() {
                     key={project.image}
                     className="w-1/2 m-1"
                     >
-                      <div className="px-1 py-1 relative z-10 border-4 border-gray-800 bg-gray-900 hover:bg-[#4B50BF]">
-                        <h3 className="tracking-widest w-full h-full z-11 text-sm title-font font-medium text-[#4B50BF] mb-1 hover:text-white">Source Code</h3>
+                      <div className="h-10 w-50 relative z-10 border-4 border-gray-800 bg-[#1A1A1D] hover:bg-[#4B50BF]">
+                      <div className="tracking-widest w-full h-full z-11 content-center text-sm title-font font-medium text-[#4B50BF] hover:text-white">
+                        <h3 className="mt-1">Source Code</h3>
+                        </div>
                       </div>
 
                     </a>
