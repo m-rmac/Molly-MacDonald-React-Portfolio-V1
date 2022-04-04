@@ -4,32 +4,32 @@ export const projects = [
       title: "Todo List App",
       subtitle: "React",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "An application for users to add todo tasks and complete or delete as required. Features todo serachbar and dropdown filters that enable users search for tasks.",
       image: "./to-do list generator.PNG",
       siteLink: "https://m-rmac.github.io/To-Do-List-Generator/",
       gitLink: "https://github.com/m-rmac/To-Do-List-Generator"
     },
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "Kite Surfing Weather App",
+      subtitle: "Handlebars and Javascript",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
-      siteLink: "https://m-rmac.github.io/To-Do-List-Generator/",
-      gitLink: "https://github.com/m-rmac/To-Do-List-Generator"
+        "A web application which dynamically displays 3-days of weather data (via openweather.org) from user selection of 8 kite surfing hot spots around Auckland, NZ.",
+      image: "./kitesurfappV2.png",
+      siteLink: "https://mrm-weather-app.herokuapp.com/",
+      gitLink: "https://github.com/m-rmac/Weather-App"
     },
-    {
-      title: "React Tracks",
-      subtitle: "React and Python",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-2.gif",
-      siteLink: "https://m-rmac.github.io/To-Do-List-Generator/",
-      gitLink: "https://github.com/m-rmac/To-Do-List-Generator"
-    },
+    // {
+    //   title: "React Tracks",
+    //   subtitle: "React and Python",
+    //   description:
+    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    //   image: "./project-2.gif",
+    //   siteLink: "https://m-rmac.github.io/To-Do-List-Generator/",
+    //   gitLink: "https://github.com/m-rmac/To-Do-List-Generator"
+    // },
     {
       title: "Crown Clothing",
-      subtitle: "React and Firebase",
+      subtitle: "React and Redux",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "./crwn-clothing.PNG",

@@ -1,5 +1,5 @@
 import React from "react";
-import { ChevronDoubleUpIcon } from '@heroicons/react/solid';
+// import { ChevronDoubleUpIcon } from '@heroicons/react/solid';
 import { UserIcon } from '@heroicons/react/outline'
 
 // import { Link } from 'react-router-dom';
@@ -24,7 +24,7 @@ export default function Contact() {
         
         </div> */}
 
-       <div className="container px-5 py-10 mx-auto h-[90vh]">
+       <div className="container px-5 py-20 mx-auto h-[95vh]">
         <div className="text-center mb-20">
           <UserIcon className="mx-auto inline-block w-10 mb-4"/>
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
