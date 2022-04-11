@@ -15,12 +15,12 @@ export default function About() {
             <LocationMarkerIcon className="w-5 h-5 mr-1"/> Berlin, Germany
             </h4>
             <br/>
-            {/* <p className="mb-8 leading-relaxed">
+            <p className="mb-8 leading-relaxed">
               One of many driven by the pandemic to pick up a new skill, I found myself driving into the world of coding 
               and getting hooked. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
               laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
               Laborum, voluptas natus?
-            </p> */}
+            </p>
             <div className="flex justify-center">
               <a
                 href="#contact"
@@ -29,7 +29,7 @@ export default function About() {
               </a>
               <a
                 href="#projects"
-                className="ml-4 inline-flex text-[#000000] bg-white border-solid border border-[#000000] py-2 px-6 focus:outline-none hover:bg-[#000000] hover:text-white rounded text-lg">
+                className="ml-4 inline-flex text-[#C3073F] bg-white border-solid border border-[#C3073F] py-2 px-6 focus:outline-none hover:bg-[#C3073F] hover:text-white rounded text-lg">
                 See My Past Projects
               </a>
             </div>

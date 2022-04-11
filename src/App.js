@@ -7,6 +7,8 @@ import Skills from './components/Skills/skills.component';
 import Navbar from './components/Navbar/navbar.component';
 import Contact from './components/Contact/contact.component';
 
+import ProjectsList from './components/Projects/project-list.component';
+
 function App() {
   return (
 
