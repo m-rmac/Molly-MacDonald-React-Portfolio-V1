@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8ddefa4c.css",
+    "main.js": "/static/js/main.1a67b6b3.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.83d91c570e4fe4b2056d47862d2a8eaa.svg",
+    "static/media/react.svg": "/static/media/react.0f4ba0240b3b4c6a16de527f4893e6c4.svg",
+    "static/media/node.svg": "/static/media/node.3162badec4eb8b81b8641d59240f439f.svg",
+    "static/media/javascript.svg": "/static/media/javascript.fe725c64699bd83cef8f4277d029bbf8.svg",
+    "static/media/github-1.svg": "/static/media/github-1.e1e5172ec990f5b1e317019389a014dc.svg",
+    "index.html": "/index.html",
+    "static/media/css.svg": "/static/media/css.cedea6c9cccbcff87a40de636a615ccf.svg",
+    "static/media/handlebars.svg": "/static/media/handlebars.e0f3d499b9aa21785e70f172224d38c3.svg",
+    "static/media/html.svg": "/static/media/html.04b1cc848fd7209d6476b91130746359.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.d3b4f103531a4ec491bf3fba1de57b1c.svg",
+    "static/media/email.svg": "/static/media/email.965992786d784a34e91231f03e5b740b.svg",
+    "main.8ddefa4c.css.map": "/static/css/main.8ddefa4c.css.map",
+    "main.1a67b6b3.js.map": "/static/js/main.1a67b6b3.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ddefa4c.css",
+    "static/js/main.1a67b6b3.js"
+  ]
+}
