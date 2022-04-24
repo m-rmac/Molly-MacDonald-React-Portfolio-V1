@@ -23,7 +23,7 @@ export default function Navbar() {
 
         </nav>
         <a
-          href="#contact"
+          href="https://drive.google.com/file/d/1l3dn4AhXDdAUHTChA7MZvXY13Zqt8RUw/view?usp=sharing"
           className="inline-flex items-center bg-[#5C64ED] border-0 py-1 px-3 focus:outline-none hover:bg-[#4B50BF] rounded text-[#FFFFFF] mt-4 md:mt-0">
          <DownloadIcon className="w-4 h-4 mr-1" />
             CV

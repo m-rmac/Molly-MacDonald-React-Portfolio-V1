@@ -11,11 +11,11 @@ export default function ProjectsList() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Projects I've Built
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
             facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
             fuga dolore.
-          </p>
+          </p> */}
         </div>
         <div className="flex flex-col w-full -m-4">
           {projects.map((project) => (
@@ -52,9 +52,9 @@ export default function ProjectsList() {
                     key={project.image}
                     className="w-1/2 m-1 b-1"
                     >
-                      <div className="h-10 w-50 relative z-10 border-b-4 border-[#C3073F] bg-[#1A1A1D] hover:bg-[#C3073F] hover:border-[#1A1A1D]">
+                      <div className="h-10 w-50 relative z-10 border-b-4 border-[#C3073F] bg-[#1A1A1D] hover:bg-[#C3073F] ">
                         <div className="tracking-widest w-full h-full z-11 content-center text-sm title-font font-medium text-[#C3073F] hover:text-white">
-                        <h3 className="">Live</h3>
+                        <h3 className="pt-2">Live</h3>
                         </div>
                         
                       </div>
@@ -68,7 +68,7 @@ export default function ProjectsList() {
                     >
                       <div className="h-10 w-50 relative z-10 border-b-4 border-[#4B50BF] bg-[#1A1A1D] hover:bg-[#4B50BF]">
                       <div className="tracking-widest w-full h-full z-11 content-center text-sm title-font font-medium text-[#4B50BF] hover:text-white">
-                        <h3 className="">Source Code</h3>
+                        <h3 className="flex justify-center  pt-2">Source Code</h3>
                         </div>
                       </div>
 

@@ -18,24 +18,24 @@ export const projects = [
       siteLink: "https://mrm-weather-app.herokuapp.com/",
       gitLink: "https://github.com/m-rmac/Weather-App"
     },
-    // {
-    //   title: "React Tracks",
-    //   subtitle: "React and Python",
-    //   description:
-    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    //   image: "./project-2.gif",
-    //   siteLink: "https://m-rmac.github.io/To-Do-List-Generator/",
-    //   gitLink: "https://github.com/m-rmac/To-Do-List-Generator"
-    // },
     {
-      title: "Crown Clothing",
-      subtitle: "React and Redux",
+      title: "Guardian Lite Clone",
+      subtitle: "React and Tailwind",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./crwn-clothing.PNG",
-      siteLink: "https://react-project-crwn-live.herokuapp.com/",
-      gitLink: "https://github.com/m-rmac/crwn-clothing"
+        "Currently in progress, this will be a lite version of the Guardian website. It will use the guardian API to fetch data from the different sections and editions",
+      image: "./coming-soon-2.png",
+      siteLink: "/",
+      gitLink: "/"
     },
+    // {
+    //   title: "Crown Clothing",
+    //   subtitle: "React and Redux",
+    //   description:
+    //     "An E-commerce clothing shop produced as part of a react course, using firebase authentication, redux and stripe for faux payments.",
+    //   image: "./crwn-clothing.PNG",
+    //   siteLink: "https://react-project-crwn-live.herokuapp.com/",
+    //   gitLink: "https://github.com/m-rmac/crwn-clothing"
+    // },
 
   ];
 

@@ -1,5 +1,4 @@
 import React from "react";
-// import { ChevronDoubleUpIcon } from '@heroicons/react/solid';
 import { UserIcon } from '@heroicons/react/outline'
 
 // import { Link } from 'react-router-dom';
@@ -10,12 +9,6 @@ import { ReactComponent as EmailImg } from '../../assets/email.svg';
 
 export default function Contact() {
 
-  const scrollToTop = () =>{
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  }
       
     return (
       <section id="contact" className="relative bg-[#1A1A1D]">
@@ -31,7 +24,7 @@ export default function Contact() {
             Contact Me
           </h1>
           <p className="text-xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            If you have any questions or want to work with me, please don't hesitate to do so.
+            If you want to work with me or have any questions, please don't hesitate to get in touch.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
@@ -42,15 +35,12 @@ export default function Contact() {
             <LinkedinLogo className="logo" />
           </a>
           
-          <EmailImg className="h-20 w-20 mx-auto cursor-pointer" onClick={() => window.location = 'mailto:yourmail@gmail.com'}/>
+          <EmailImg className="h-20 w-20 mx-auto cursor-pointer" onClick={() => window.location = 'mailto:mollyrose.macdonald@gmail.com'}/>
           
         </div>
 
       </div>
     
-    {/* <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" onClick={scrollToTop}>
-      <ChevronDoubleUpIcon className="w-4 h-4 mr-1"/>
-      </button> */}
 
       </section>
     );

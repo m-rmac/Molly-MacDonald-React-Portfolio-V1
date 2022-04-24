@@ -46,9 +46,9 @@ export default function Projects() {
                     key={project.image}
                     className="w-1/2 m-1"
                     >
-                      <div className="h-10 w-50 relative z-10 border-4 border-gray-800 bg-[#1A1A1D] hover:bg-[#C3073F] hover:border-[#1A1A1D]">
+                      <div className="h-10 w-50 relative z-10 border-b-4 border-[#C3073F] bg-[#1A1A1D] hover:bg-[#C3073F]">
                         <div className="tracking-widest w-full h-full z-11 content-center text-sm title-font font-medium text-[#C3073F] hover:text-white">
-                        <h3 className="pt-1">Live</h3>
+                        <h3 className="pt-2">Live</h3>
                         </div>
                         
                       </div>
@@ -60,9 +60,9 @@ export default function Projects() {
                     key={project.image}
                     className="w-1/2 m-1"
                     >
-                      <div className="h-10 w-50 relative z-10 border-4 border-gray-800 bg-[#1A1A1D] hover:bg-[#4B50BF]">
+                      <div className="h-10 w-50 relative z-10 border-b-4 border-[#4B50BF] bg-[#1A1A1D] hover:bg-[#4B50BF]">
                       <div className="tracking-widest w-full h-full z-11 content-center text-sm title-font font-medium text-[#4B50BF] hover:text-white">
-                        <h3 className="mt-1">Source Code</h3>
+                        <h3 className="flex justify-center  pt-2">Source Code</h3>
                         </div>
                       </div>
 

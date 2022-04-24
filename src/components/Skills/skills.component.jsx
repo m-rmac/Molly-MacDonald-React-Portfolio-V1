@@ -1,13 +1,11 @@
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
+import { ChipIcon } from "@heroicons/react/solid";
 import React from "react";
-import { skills } from "../../data";
 
 import { ReactComponent as HTMLIcon} from '../../assets/html.svg';
 import { ReactComponent as CSSIcon} from '../../assets/css.svg';
 import { ReactComponent as JSIcon} from '../../assets/javascript.svg';
 import { ReactComponent as NodeIcon} from '../../assets/node.svg';
 import { ReactComponent as ReactIcon} from '../../assets/react.svg';
-import { ReactComponent as NpmIcon } from '../../assets/npm.svg';
 import { ReactComponent as BSIcon} from '../../assets/bootstrap.svg';
 import { ReactComponent as HBIcons } from '../../assets/handlebars.svg';
 
@@ -21,14 +19,19 @@ export default function Skills() {
             About Me
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          One of many driven by the pandemic to pick up a new skill, I found myself driving into the world of coding 
-              and getting hooked. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-              laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-              Laborum, voluptas natus?
+          I’m Molly, a junior web developer, born and raised in Auckland, New Zealand. I have been interested in tech and have had persistent desire to learn since I can remember. 
+          Recently tipped over the edge by targeted advertising, a pandemic and a desire to change my career trajectory, I decided to investigate coding. <br/><br/>
+
+          Over the past year I have been dedicated to learning how to code and create applications. Starting with a University course with a focus on Java and frontend technologies, 
+          I was gripped by frontend. Since, I have become most interested in React, CSS frameworks (tailwind and bootstrap), Javascript, Express and Node.js. <br/><br/>
+
+          My goal is to become a valuable Full-stack developer, able to take great ideas to improve peoples lives and turn them into well executed applications. <br/><br/>
+
+          In my spare time I enjoy getting outside and exploring, playing/watching rollerderby, rock climbing, reading and board games. <br/>
+
           </p>
         </div>
         
-        {/* <div className="container px-5 py-10 mx-auto flex justify-center sm:flex-nowrap flex-wrap"> */}
           <div className="text-center mb-5">
               <h3 className="sm:text-2xl text-xl font-medium title-font text-[#000000] mb-4">
                 Skills &amp; Technologies
@@ -40,7 +43,6 @@ export default function Skills() {
           <JSIcon className="h-10 w-10 mx-auto"/>
           <NodeIcon className="h-10 w-10 mx-auto"/>
           <ReactIcon className="h-10 w-10 mx-auto"/>
-          <NpmIcon className="h-10 w-10 mx-auto"/>
           <BSIcon className="h-10 w-10 mx-auto"/>
           <HBIcons className="h-10 w-10 mx-auto"/>
         </div>
