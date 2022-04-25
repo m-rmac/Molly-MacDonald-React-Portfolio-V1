@@ -17,7 +17,7 @@ export default function Contact() {
         
         </div> */}
 
-       <div className="container px-5 py-20 mx-auto h-[95vh]">
+       <div className="container px-5 py-20 mx-auto h-[100vh]">
         <div className="text-center mb-20">
           <UserIcon className="mx-auto inline-block w-10 mb-4"/>
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
@@ -27,15 +27,15 @@ export default function Contact() {
             If you want to work with me or have any questions, please don't hesitate to get in touch.
           </p>
         </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-        <a className="h-20 w-20 mx-auto" href="https://github.com/m-rmac">
+        <div className="flex sm:flex-row flex-col lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <a className="h-20 w-20 mx-auto mb-6" href="https://github.com/m-rmac">
             <GitHubLogo className="logo" />
           </a>
-          <a className="h-20 w-20 mx-auto" href="https://www.linkedin.com/in/molly-macdonald/">
+          <a className="h-20 w-20 mx-auto mb-6" href="https://www.linkedin.com/in/molly-macdonald/">
             <LinkedinLogo className="logo" />
           </a>
           
-          <EmailImg className="h-20 w-20 mx-auto cursor-pointer" onClick={() => window.location = 'mailto:mollyrose.macdonald@gmail.com'}/>
+          <EmailImg className="h-20 w-20 mx-auto cursor-pointer mb-6" onClick={() => window.location = 'mailto:mollyrose.macdonald@gmail.com'}/>
           
         </div>
 

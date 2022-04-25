@@ -17,13 +17,13 @@ export default function ProjectsList() {
             fuga dolore.
           </p> */}
         </div>
-        <div className="flex flex-col w-full -m-4">
+        <div className="flex flex-col w-full sm:m-4">
           {projects.map((project) => (
             <div
               href={project.link}
               key={project.image}
-              className="flex flex-row w-100p-4 h-96">
-              <div className="flex w-1/2 h-80">
+              className="flex sm:flex-row flex-col w-100 p-4 m-h-96">
+              <div className="flex sm:w-1/2 h-80">
                 <img
                   alt="gallery"
                   className="inset-0 w-full h-full object-cover object-center"
@@ -32,7 +32,7 @@ export default function ProjectsList() {
                 
 {/* Box for the image */}
               </div>
-                <div className="flex ml-2 px-4 py-6 w-1/2 h-80 border-4 border-gray-800 bg-[#1A1A1D]">
+                <div className="flex sm:ml-2 px-4 py-6 sm:w-1/2 h-80 sm:mt-0 mt-2 border-4 border-gray-800 bg-[#1A1A1D]">
 
                     <div className="flex flex-col justify-between">
 

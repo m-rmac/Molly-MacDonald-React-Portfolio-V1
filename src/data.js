@@ -1,10 +1,10 @@
 
 export const projects = [
     {
-      title: "Todo List App",
+      title: "To-do List App",
       subtitle: "React",
       description:
-        "An application for users to add todo tasks and complete or delete as required. Features todo serachbar and dropdown filters that enable users search for tasks.",
+        "An application for users to add to-do tasks and complete or delete as required. Features to-do serachbar and dropdown filters that enable users search for tasks.",
       image: "./to-do list generator.PNG",
       siteLink: "https://m-rmac.github.io/To-Do-List-Generator/",
       gitLink: "https://github.com/m-rmac/To-Do-List-Generator"

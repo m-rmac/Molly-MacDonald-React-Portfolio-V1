@@ -12,7 +12,7 @@ import { ReactComponent as HBIcons } from '../../assets/handlebars.svg';
 export default function Skills() {
   return (
     <section id="skills">
-      <div className="container px-5 py-20 mx-auto h-[100vh]">
+      <div className="container px-5 py-20 mx-auto sm:min-h-[100vh]">
         <div className="text-center mb-20">
           <ChipIcon className="w-10 inline-block mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-[#000000] mb-4">
